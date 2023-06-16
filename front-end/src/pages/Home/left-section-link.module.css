@@ -1,0 +1,27 @@
+.link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin: 15px 0;
+}
+
+.link:last-child {
+    margin-bottom: 0;
+}
+
+.link>.image {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.link>.label {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #000000;
+}
+
+.link:hover>.label {
+    color: #0088ff;
+}

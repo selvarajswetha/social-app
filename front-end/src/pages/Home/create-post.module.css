@@ -1,0 +1,43 @@
+.profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50rem;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.profile>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.textarea {
+    width: 100%;
+    height: 100px;
+    outline: none;
+    border: none;
+    background: none;
+    flex-shrink: 1;
+    padding-top: 10px;
+    resize: none;
+}
+
+.textarea::placeholder {
+    color: #c4c4c4;
+}
+
+.button {
+    background: #e0e0e0;
+    height: 30px;
+    border-radius: .3rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #3b3b3b;
+    border: none;
+    outline: none;
+    font-size: .9rem;
+    font-weight: 600;
+}

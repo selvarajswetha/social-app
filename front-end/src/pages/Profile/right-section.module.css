@@ -1,0 +1,14 @@
+.about>h1 {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.about>p {
+    color: #3d3d3d;
+    font-size: .95rem;
+}
+
+.about>div {
+    color: #3d3d3d;
+    font-size: .95rem;
+}
