@@ -1,10 +1,10 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Profile from './pages/Profile';
 import Layout from "./components/Layout";
 
 function App() {
-  return <BrowserRouter>
+  return <BrowserRouter basename='social-media-app'>
     <Routes>
       <Route path='/' element={<Layout />}>
         <Route index element={<Home />} />

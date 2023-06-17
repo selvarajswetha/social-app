@@ -15,7 +15,19 @@ const dbConfig = {
 
 };
 
+const mailConfig = {
+    service: process.env.MAIL_SERVICE,
+    auth: {
+        user: process.env.MAIL_USER,
+        pass: process.env.MAIL_PASS
+    }
+}
+
+const jwtSecretKey = process.env.JWT_SECRET_KEY
+
 export {
     appConfig,
-    dbConfig
+    dbConfig,
+    mailConfig,
+    jwtSecretKey
 }

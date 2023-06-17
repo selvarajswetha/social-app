@@ -1,5 +1,5 @@
 {
-  "name": "social-media-app-api",
+  "name": "social-app-api",
   "version": "0.0.1",
   "description": "API for social media app",
   "main": "src/app.js",
@@ -11,10 +11,13 @@
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
     "dotenv": "^16.1.4",
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.0",
-    "mysql2": "^3.3.4"
+    "mysql2": "^3.3.4",
+    "nodemailer": "^6.9.3"
   },
   "devDependencies": {
     "nodemon": "^2.0.22"
